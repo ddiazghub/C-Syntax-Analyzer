@@ -1,0 +1,39 @@
+Numeral=# INCLUDE Cabecera=<stdio.h>
+VOID MAIN Parent-a=( Parent-c=) Inicio={
+  INT ID_0=i Coma=, ID_1=x Punto-coma=;
+  FLOAT ID_2=media Coma=, ID_3=media2 Punto-coma=;
+  ID_2=media Op-asign== Cte-entera=0 Punto-coma=;
+  FOR Parent-a=( ID_0=i Op-asign== Cte-entera=0 Punto-coma=;
+  ID_0=i Menor Cte-entera=10 Punto-coma=;
+  ID_0=i Op-sum=+ Op-sum=+ Parent-c=) Inicio={
+    SCANF Parent-a=( Cte-cadena="%d" Coma=, ID_1=x Parent-c=) Punto-coma=;
+    ID_2=media Op-sum=+ Op-asign== ID_1=x Punto-coma=;
+  Fin=}
+  Punto-coma=;
+  ID_2=media Op-div=/ Op-asign== Cte-entera=10 Punto-coma=;
+  PRINTF Parent-a=( Cte-cadena="%f" Coma=, ID_2=media Parent-c=) Punto-coma=;
+  ID_0=i Op-asign== Cte-entera=0 Punto-coma=;
+  ID_3=media2 Op-asign== Cte-entera=0 Punto-coma=;
+  WHILE Parent-a=( ID_0=i Menor Cte-entera=10 Parent-c=) Inicio={
+    SCANF Parent-a=( Cte-cadena="%d" Coma=, ID_1=x Parent-c=) Punto-coma=;
+    ID_0=i Op-sum=+ Op-sum=+ Punto-coma=;
+    ID_3=media2 Op-asign== ID_3=media2 Op-sum=+ ID_1=x Punto-coma=;
+  Fin=}
+  Punto-coma=;
+  ID_3=media2 Op-asign== ID_3=media2 Op-div=/ Cte-entera=10 Punto-coma=;
+  PRINTF Parent-a=( Cte-cadena="%f" Coma=, ID_2=media Parent-c=) Punto-coma=;
+  ID_0=i Op-asign== Cte-entera=0 Punto-coma=;
+  ID_3=media2 Op-asign== Cte-entera=0 Punto-coma=;
+  DO Inicio={
+    SCANF Parent-a=( Cte-cadena="%d" Coma=, ID_1=x Parent-c=) Punto-coma=;
+    ID_0=i Op-sum=+ Op-sum=+ Punto-coma=;
+    ID_3=media2 Op-asign== ID_3=media2 Op-sum=+ ID_1=x Punto-coma=;
+  Fin=}
+  WHILE Parent-a=( ID_0=i Menor Cte-entera=10 Parent-c=) Punto-coma=;
+  ID_3=media2 Op-asign== ID_3=media2 Op-div=/ Cte-entera=10 Punto-coma=;
+  PRINTF Parent-a=( Cte-cadena="%f" Coma=, ID_2=media Parent-c=) Punto-coma=;
+Fin=}
+
+TABLA DE IDENTIFICADORES
+Hay 4 identificadores
+Id_0=i; Id_1=x; Id_2=media; Id_3=media2; 
